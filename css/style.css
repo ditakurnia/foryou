@@ -13,7 +13,7 @@ body{
     background-color: rgb(0, 0, 0);
 }
 .greetings{
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 600;
 }
 .greetings > span{
@@ -53,18 +53,19 @@ body{
     color: #000000;
 }
 
-@media screen and (max-width:574px){
+@media screen and (max-width: 574px){
     .greetings{
         display: block;
-        font-size: 30px;
+        font-size: 8vw; /* Ukuran font yang responsif */
         font-weight: 500;
         text-align: center;
     }
     .description{
-        font-size: 1rem;
+        font-size: 5vw; /* Ukuran font yang responsif */
     }
     
     .button a{
-        font-size: .9rem;
+        font-size: 4vw; /* Ukuran font yang responsif */
     }
 }
+
